@@ -42,7 +42,7 @@
             </table>
         </div>
 
-        <img class="image-2" src="streetscape.png" alt="streetscape project title image">
+        <img class="image-2" src="assets/streetscape.png" alt="streetscape project title image">
 
         <div class="small-2">
             <h2 class="proj-heading-1">Problem Space</h2>
@@ -58,7 +58,7 @@
             </ol>
         </div>
 
-        <img class="image-2" src="nyc dcp products.png" alt="Screenshots of NYC DCP products">
+        <img class="image-2" src="assets/nyc-dcp-products.png" alt="Screenshots of NYC DCP products">
         <div class="caption">Screenshots of NYC DCP products.</div>
 
         <div class="small-2">
@@ -66,13 +66,13 @@
             <p>I reimagined Streetscape, NYC DCP's design system, in order <span class="bold-text">to unify digital products for a consistent and accessible experience across the organization</span>. Given the time, I focused on revising the foundations of the design system, including six different design libraries, as well as streamlining the workflows between designers and developers, providing extensive documentation on how design elements should be used.</p>
         </div>
 
-        <img class="image-2" src="streetscape solution 1.png" alt="Streetscape, NYC DCP's design system">
+        <img class="image-2" src="assets/streetscape-solution.png" alt="Streetscape, NYC DCP's design system">
         <div class="caption">Streetscape, NYC DCP's design system.</div>
 
-        <img class="image-2" src="streetscape solution 3.png" alt="Overview of six foundational libraries">
+        <img class="image-2" src="assets/streetscape-solution-3.png" alt="Overview of six foundational libraries">
         <div class="caption">Overview of six foundational libraries.</div>
 
-        <img class="image-2" src="streetscape solution 2.png" alt="A look inside the design system documentation">
+        <img class="image-2" src="assets/streetscape-solution-2.png" alt="A look inside the design system documentation">
         <div class="caption">A look inside the design system documentation.</div>
 
         <div class="small-2">
@@ -81,31 +81,75 @@
 
             <!-- nested list -->
             <ol>
-                <li class="list-item">Initial Discovery</li>
-                <ol type="A">
-                    <li class="list-item">Problem Discovery</li>
-                    <li class="list-item">Discussion with Manager</li>
-                </ol>
+                <li class="list-item">Initial Discovery
+                    <ol type="A">
+                        <li class="list-item">Problem Discovery</li>
+                        <li class="list-item">Discussion with Manager</li>
+                    </ol>
+                </li>
 
-                <li class="list-item">Research and Understanding</li>
-                <ol type="A">
-                    <li class="list-item">Secondary and Primary Research</li>
-                    <li class="list-item">Goal Definition</li>
-                </ol>
+                <li class="list-item">Research and Understanding
+                    <ol type="A">
+                        <li class="list-item">Secondary and Primary Research</li>
+                        <li class="list-item">Goal Definition</li>
+                    </ol>
+                </li>
 
-                <li class="list-item">Design and Document</li>
-                <ol type="A">
-                    <li class="list-item">Six Foundational Libraries</li>
-                    <li class="list-item">Github Documentation and Markups</li>
-                </ol>
+                <li class="list-item">Design and Document
+                    <ol type="A">
+                        <li class="list-item">Six Foundational Libraries</li>
+                        <li class="list-item">Github Documentation and Markups</li>
+                    </ol>
+                </li>
 
-                <li class="list-item">Final Presentation</li>
-                <ol type="A">
-                    <li class="list-item">Handoff to Developers</li>
-                    <li class="list-item">Internal Presentation</li>
-                </ol>
+                <li class="list-item">Project Handoff
+                    <ol type="A">
+                        <li class="list-item">Handoff to Developers</li>
+                        <li class="list-item">Internal Presentation</li>
+                    </ol>
+                </li>
             </ol>
         </div>
+
+        <div class="small-2">
+            <h2 class="proj-heading-1">Initial Discovery</h2>
+            <p>In the early days of the fellowship, my first project was making design improvements to an existing product. For standard practices, I made these updates following DCP's design system, Streetscape. However, I soon noticed some problems with it.</p>
+
+            <ol>
+                <li class="list-item"><span class="bold-text">Current products don't adhere to DCP's design system.</span> They either use it differently, or follow an outdated design system that dates way back</li>
+                <li class="list-item"><span class="bold-text">The design system was incomplete and outdated.</span> Looking at the design system itself, I saw issues that needed some revisiting. These issues spanned from accessibility, flexibility, to incompleteness.</li>
+            </ol>
+        </div>
+
+        <div class="small-2">
+            <h2 class="proj-heading-1">Research and Understanding</h2>
+            <p>I first took time to review how to approach a design system project, including speaking with developers to understand current workflows and how they use design system.Also, since this was my first time working on a design system, I quickly learned about general process, documentations, and library structures. In particular, I examined popular ones with a focus on accessibility and flexibility.</p>
+        </div>
+
+        <img class="image-2" src="assets/primary-research.png" alt="Conducting primary research with developers">
+        <div class="caption">Conducting primary research with developers.</div>
+
+        <div class="small-2">
+            <h2 class="proj-heading-1">Design and Document</h2>
+            <p>In this case study, I'll highlight one library that encapsulates our overall redesign process and decisions for this part of the project. To solve the problems within the current color system, my design philosophy was to build upon, as opposed to redesign.</p>
+
+            <ol>
+                <li class="list-item"><span class="bold-text">Documentation:</span> I created detailed documentation, including semantically named color tokens and usage explanations, to assist designers and developers.</li>
+                <li class="list-item"><span class="bold-text">Brand Consistency:</span> I preserved DCP's existing colors while adjusting their application to ensure they meet AA contrast ratio standards.</li>
+                <li class="list-item"><span class="bold-text">Expanded Palettes:</span> I broadened the color palettes to support a wider range of use cases across DCP products.</li>
+            </ol>
+        </div>
+
+        <img class="image-2" src="assets/color-system.png" alt="The updated color system library">
+        <div class="caption">The updated color system library.</div>
+
+        <div class="small-2">
+            <h2 class="proj-heading-1">Project Handoff</h2>
+            <p>To connect workflows, we integrated a plugin to embed Figma to Storybook. When designers create changes to Figma files, it reflects changes within that is embedded to its respective Storybook component. This helps bridge the gap between design and implementation as it is easier to see visually what updated Figma components correspond with their Storybook counterpart.</p>
+        </div>
+
+        <img class="image-2" src="assets/storybook.png" alt="Documentation for seamless support>
+        <div class="caption">Documentation for seamless support.</div>
 
         <div class="small-2">
             <h2 class="proj-heading-1">Project Takeaways</h2>
