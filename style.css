@@ -9,6 +9,7 @@ body {
     letter-spacing:-0.5px;
 }
 
+/* animation code modified from https://dev.to/tiaeastwood/super-simple-css-animation-for-fade-in-on-page-load-2p8m */
 @keyframes fadeInUp {
     0% {
       transform: translateY(5%);
@@ -41,6 +42,11 @@ body {
 .small {
     max-width:580px;
     margin:auto;
+}
+
+.small-2 {
+    margin:80px auto auto auto;
+    max-width:580px;
 }
 
 .header-links {
@@ -103,7 +109,13 @@ body {
 
 .image-1 {
     width:100%;
-    height:400px;
+    border-radius:12px;
+    border:1px solid #ddd;
+}
+
+.image-2 {
+    margin-top:80px;
+    width:100%;
     border-radius:12px;
     border:1px solid #ddd;
 }
